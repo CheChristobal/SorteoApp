@@ -1,0 +1,52 @@
+/* Ganadores.css */
+
+.ganadores-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e; /* Gris muy oscuro para contraste */
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  color: #ffffff; /* Blanco para buen contraste */
+  text-align: center;
+}
+
+h2 {
+  color: #ff5722; /* Naranja intenso */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #b0bec5; /* Gris claro para buen contraste sin ser demasiado fuerte */
+}
+
+.ganadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.ganador-card {
+  background-color: #263238; /* Gris oscuro con matiz azul */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ganador-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+  color: #4caf50; /* Verde brillante */
+  margin-bottom: 10px;
+}
+
+p strong {
+  color: #ffeb3b; /* Amarillo brillante */
+}

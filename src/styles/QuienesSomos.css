@@ -1,0 +1,51 @@
+/* QuienesSomos.css */
+
+.quienes-somos-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #282828; /* Gris oscuro */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+  }
+  
+  h2 {
+    color: #00e676; /* Verde neón */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .quienes-somos-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #b0bec5; /* Gris claro */
+  }
+  
+  h3 {
+    color: #ffeb3b; /* Amarillo brillante */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "✓";
+    color: #00e676; /* Verde neón */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
